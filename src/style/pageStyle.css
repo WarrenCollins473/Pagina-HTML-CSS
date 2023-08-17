@@ -211,6 +211,36 @@ figcaption {
 #about-author > * {
   margin: 10px;
 }
+/* seção de comentários */
+
+#comments div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  max-width: 500px;
+}
+#comments {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  align-content: center;
+  margin: auto;
+  max-width: 500px;
+}
+#comments br {
+  display: none;
+}
+#comments div > p {
+  text-align: justify;
+  max-width: 500px;
+}
+@media (max-width: 450px) {
+  #comments div {
+    width: 80%;
+  }
+}
 
 /* Rodapé da página  */
 
