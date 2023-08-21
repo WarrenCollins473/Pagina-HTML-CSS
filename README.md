@@ -5,8 +5,8 @@ It is a website about books and reading.
 
 # To run this code put this commands on the terminal:
 
-npm install 
 # to install the dependences 
+npm install 
 
-npm start 
 # to start the server
+npm start 
