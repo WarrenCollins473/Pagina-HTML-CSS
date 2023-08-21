@@ -1,3 +1,11 @@
+body {
+  text-align: center;
+  margin: 0;
+  background-color: #9bc0d9;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
 /* Cabeçalho e menu de navegação recursivo */
 #header {
   display: flex;
@@ -7,6 +15,11 @@
   height: 90px;
   border-bottom: 1px solid black;
   margin-bottom: 20px;
+  background-color: #ee6b4d;
+  z-index: -1;
+  -webkit-box-shadow: 0px 0px 8px 2px #000000;
+  -moz-box-shadow: 0px 0px 8px 2px #000000;
+  box-shadow: 0px 0px 8px 2px #000000;
 }
 
 .elementos {
@@ -17,11 +30,11 @@
   list-style: none;
   padding-top: 10px;
   padding-bottom: 10px;
-  color: black;
+  color: #293241;
   font-weight: 500;
   font-size: 15px;
   font-family: "Verdana";
-  background-color: white;
+  background-color: #ee6b4d;
   transition: 0.5s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
 
@@ -71,14 +84,17 @@
 
 .linha-0 {
   transform: rotate(45deg) translate(4.5px, 12px);
+  background-color: #000000;
 }
 
 .linha-1 {
   transform: scale(0);
+  background-color: #000000;
 }
 
 .linha-2 {
   transform: rotate(-45deg) translateY(-7.5px);
+  background-color: #000000;
 }
 
 #section p {
@@ -245,11 +261,11 @@ figcaption {
 /* Rodapé da página  */
 
 #footer {
-  background-color: black;
-  color: white;
+  background-color: #293241;
+  color: #dffbfc;
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   flex-direction: column;
   height: 464px;
   text-align: center;

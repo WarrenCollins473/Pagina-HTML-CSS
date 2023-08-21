@@ -7,5 +7,6 @@ function alternar() {
     linhas[0].classList.toggle("linha-0");
     linhas[1].classList.toggle("linha-1");
     linhas[2].classList.toggle("linha-2");
+    botao.addEventListener("click", alternar);
 }
 botao.addEventListener("click", alternar);
